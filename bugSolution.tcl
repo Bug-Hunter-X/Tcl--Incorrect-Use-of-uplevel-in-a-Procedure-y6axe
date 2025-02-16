@@ -1,0 +1,1 @@
+proc goodproc {a b} { return [expr {$a + $b}] }
