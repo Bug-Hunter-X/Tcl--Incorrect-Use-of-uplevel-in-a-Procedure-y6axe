@@ -1,0 +1,1 @@
+proc badproc {a b} { puts "[uplevel 1 {expr {$a + $b}}]" }
